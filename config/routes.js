@@ -45,7 +45,7 @@ module.exports.routes = {
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
   'POST /auth/signup': 'AuthController.signup',
   'POST /auth/signin': 'AuthController.signin',
-
+  'GET /user/test': 'UserController.testEmail', //for test email
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗

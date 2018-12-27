@@ -6,7 +6,10 @@
  */
 
 module.exports = {
-  
+    testEmail: async (req, res) => {
+        let result = await MailerService.sendPasswordReset( 'espinoza8917@gmail.com', 'test', 'test', 'test' );
+        res.customOk( result );
+    }
 
 };
 
